@@ -6,35 +6,29 @@ This is a sample Employee Management System built using Spring MVC, Spring Boot,
 
 - Spring MVC
 - Spring Boot
+- Spring Data
 - Thymeleaf
-- MySQL
 
 ## Getting Started
-
-### Prerequisites
-
-- Java 8 or above
-- MySQL 5.7 or above
-- Maven 3.3 or above
 
 ### Installing
 
 1. Clone the repository:
 
-```sh
-git clone https://github.com/<your-username>/crud-employee-system.git
+```sh[
+https://github.com/mohamedehab00/Simple-Employee-Managment-System.git
 ```
 
 2. Create a MySQL database named `employee_management`:
 
 ```sh
-CREATE DATABASE employee_management;
+CREATE DATABASE employee_directory;
 ```
 
 3. Configure the database connection in the `application.properties` file located in the `src/main/resources` directory:
 
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/employee_management
+spring.datasource.url=jdbc:mysql://localhost:3306/employee_directory
 spring.datasource.username=root
 spring.datasource.password=root
 spring.jpa.show-sql=true
