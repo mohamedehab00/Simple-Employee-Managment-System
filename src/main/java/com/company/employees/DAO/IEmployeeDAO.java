@@ -6,4 +6,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
 public interface IEmployeeDAO extends JpaRepository<Employee,Integer> {
+    public List<Employee> findAllByOrderByLastNameAsc();
 }

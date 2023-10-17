@@ -14,7 +14,7 @@ public class EmployeeService implements IEmployeeService{
 
     @Override
     public List<Employee> findAllEmployees() {
-        return employeeDAO.findAll();
+        return employeeDAO.findAllByOrderByLastNameAsc();
     }
 
     @Override
